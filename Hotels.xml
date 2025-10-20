@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+	<!-- Hotel 1: The example from the assignment -->
+	<Hotel id="hotel1">
+		<Name category="Luxury">Westin</Name>
+		<Address>
+			<Number>11</Number>
+			<Street>E. 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<NearestAirport>Sky Harbor International</NearestAirport>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Rating source="Google">4.2</Rating> <!-- out of 5 stars-->
+	</Hotel>
+
+	<!-- Hotel 2: Real hotel data -->
+	<Hotel id="hotel2">
+		<Name>Hyatt Regency Phoenix</Name>
+		<Address>
+			<Number>122</Number>
+			<Street>N 2nd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+		<NearestAirport>Sky Harbor International</NearestAirport>
+		<Phone>602-252-1234</Phone>
+		<Rating source="TripAdvisor">4.3</Rating>
+	</Hotel>
+
+	<!-- Hotel 3: With optional attribute on Name -->
+	<Hotel id="hotel3">
+		<Name category="Budget">Motel 6 Phoenix</Name>
+		<Address>
+			<Number>1530</Number>
+			<Street>N 52nd Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85043</Zip>
+		</Address>
+		<NearestAirport>Sky Harbor International</NearestAirport>
+		<Phone>602-484-9000</Phone>
+		<Rating source="Google">3.5</Rating>
+	</Hotel>
+
+	<!-- Hotel 4 -->
+	<Hotel id="hotel4">
+		<Name>Hilton Phoenix Airport</Name>
+		<Address>
+			<Number>2435</Number>
+			<Street>S 47th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+		<NearestAirport>Sky Harbor International</NearestAirport>
+		<Phone>480-894-1600</Phone>
+		<Phone>800-445-8667</Phone>
+		<Rating source="Booking.com">4.1</Rating>
+	</Hotel>
+
+	<!-- Hotel 5 -->
+	<Hotel id="hotel5">
+		<Name>The Wayfarer San Diego</Name>
+		<Address>
+			<Number>707</Number>
+			<Street>Pacific Beach Dr</Street>
+			<City>San Diego</City>
+			<State>CA</State>
+			<Zip>92109</Zip>
+		</Address>
+		<NearestAirport>San Diego International</NearestAirport>
+		<Phone>858-488-4700</Phone>
+		<Rating source="Booking.com">4.3</Rating>
+	</Hotel>
+
+	<!-- Hotel 6 -->
+	<Hotel id="hotel6">
+		<Name>Four Seasons Las Vegas</Name>
+		<Address>
+			<Number>3960</Number>
+			<Street>S Las Vegas Blvd</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89119</Zip>
+		</Address>
+		<NearestAirport>Harry Reid International</NearestAirport>
+		<Phone>702-632-5000</Phone>
+		<Rating source="Trivago">4.7</Rating>
+	</Hotel>
+
+	<!-- Hotel 7 -->
+	<Hotel id="hotel7">
+		<Name>Hilton Vacation Club Sedona Summit</Name>
+		<Address>
+			<Number>4055</Number>
+			<Street>Navoti Dr</Street>
+			<City>Sedona</City>
+			<State>AZ</State>
+			<Zip>86336</Zip>
+		</Address>
+		<NearestAirport>Sky Harbor International</NearestAirport>
+		<Phone>928-204-3100</Phone>
+		<Rating source="Trivago">4.2</Rating>
+	</Hotel>
+
+	<!-- Hotel 8 -->
+	<Hotel id="hotel8">
+		<Name>Little America Flagstaff</Name>
+		<Address>
+			<Number>2515</Number>
+			<Street>E Butler Ave</Street>
+			<City>Flagstaff</City>
+			<State>AZ</State>
+			<Zip>86004</Zip>
+		</Address>
+		<NearestAirport>Sky Harbor International</NearestAirport> <!-- Or Flagstaff Pulliam -->
+		<Phone>928-779-2741</Phone>
+		<Rating source="Booking.com">4.6</Rating>
+	</Hotel>
+
+	<!-- Hotel 9 -->
+	<Hotel id="hotel9">
+		<Name>Loews Ventana Canyon Resort</Name>
+		<Address>
+			<Number>7000</Number>
+			<Street>N Resort Dr</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85750</Zip>
+		</Address>
+		<NearestAirport>Sky Harbor International</NearestAirport> <!-- Or Tucson International -->
+		<Phone>520-299-2020</Phone>
+		<Rating source="Booking.com">4.5</Rating>
+	</Hotel>
+
+	<!-- Hotel 10 -->
+	<Hotel id="hotel10">
+		<Name>Honua Kai Resort and Spa</Name>
+		<Address>
+			<Number>130</Number>
+			<Street>Kai Malina Pkwy</Street>
+			<City>Lahaina</City>
+			<State>HI</State>
+			<Zip>96761</Zip>
+		</Address>
+		<NearestAirport>Daniel K. Inouye International</NearestAirport>
+		<Phone>855-718-5789</Phone>
+		<Rating source="Booking.com">4.5</Rating>
+	</Hotel>
+</Hotels>

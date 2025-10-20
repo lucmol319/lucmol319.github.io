@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ERROR 1: Wrong root element name -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+	<Hotel id="hotel1">
+		<Name category="Luxury">Westin</Name>
+		<Address>
+			<Number>11</Number>
+			<Street>E. 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+			<!-- ERROR 4: Address has no closing tag -->
+			<NearestAirport>Sky Harbor</NearestAirport>
+			<!-- ERROR 3: Phone element missing for this hotel -->
+			<Rating source="Google">4.2</Rating>
+		</Hotel>
+
+	<Hotel>
+		<!-- ERROR 2: Required 'id' attribute missing -->
+		<!-- ERROR 5: Two Name elements -->
+		<Name>Double Name Hotel</Name>
+		<Name>Duplicate Name</Name>
+		<Address>
+			<Number>123</Number>
+			<Street>Main St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<NearestAirport>Sky Harbor</NearestAirport>
+		<Phone>480-555-1234</Phone>
+		<Rating source="Google">3.8</Rating>
+	</Hotel>
+</Hotel>
