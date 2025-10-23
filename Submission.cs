@@ -12,7 +12,7 @@ using System.Collections.Generic;
  * **/
 namespace ConsoleApp1
 {
-    public class Submission
+    public class Program
     {
         // Update these URLs with your actual GitHub raw URLs
         public static string xmlURL = "https://raw.githubusercontent.com/lucmol319/lucmol319.github.io/main/Hotels.xml";

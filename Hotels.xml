@@ -119,7 +119,7 @@
 			<State>AZ</State>
 			<Zip>86004</Zip>
 		</Address>
-		<NearestAirport>Sky Harbor International</NearestAirport> <!-- Or Flagstaff Pulliam -->
+		<NearestAirport>Flagstaff Pulliam</NearestAirport>
 		<Phone>928-779-2741</Phone>
 		<Rating source="Booking.com">4.6</Rating>
 	</Hotel>
@@ -134,7 +134,7 @@
 			<State>AZ</State>
 			<Zip>85750</Zip>
 		</Address>
-		<NearestAirport>Sky Harbor International</NearestAirport> <!-- Or Tucson International -->
+		<NearestAirport>Tucson International</NearestAirport>
 		<Phone>520-299-2020</Phone>
 		<Rating source="Booking.com">4.5</Rating>
 	</Hotel>
