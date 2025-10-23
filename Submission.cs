@@ -5,21 +5,19 @@ using Newtonsoft.Json;
 using System.IO;
 using System.Text;
 using System.Collections.Generic;
-
 /**
  * This template file is created for ASU CSE445 Distributed SW Dev Assignment 4.
  * Please do not modify or delete any existing class/variable/method names. However, you can add more variables and functions.
  * Uploading this file directly will not pass the autograder's compilation check, resulting in a grade of 0.
- * Codelines made by GitHub Copilot are identified with "//" and are uncertain to be correct.
  * **/
 namespace ConsoleApp1
 {
     public class Submission
     {
         // Update these URLs with your actual GitHub raw URLs
-        public static string xmlURL = "https://raw.githubusercontent.com/lucmol319/lucmol319.github.io/refs/heads/main/Hotels.xml";
-        public static string xmlErrorURL = "https://raw.githubusercontent.com/lucmol319/lucmol319.github.io/refs/heads/main/HotelsErrors.xml";
-        public static string xsdURL = "https://raw.githubusercontent.com/lucmol319/lucmol319.github.io/refs/heads/main/Hotels.xsd";
+        public static string xmlURL = "https://raw.githubusercontent.com/lucmol319/lucmol319.github.io/main/Hotels.xml";
+        public static string xmlErrorURL = "https://raw.githubusercontent.com/lucmol319/lucmol319.github.io/main/HotelsErrors.xml";
+        public static string xsdURL = "https://raw.githubusercontent.com/lucmol319/lucmol319.github.io/main/Hotels.xsd";
 
         public static void Main(string[] args)
         {
