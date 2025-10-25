@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+        xmlns="http://asu.edu/cse445/hotels"
+        xsi:schemaLocation="http://asu.edu/cse445/hotels Hotels.xsd">
 
 	<!-- Hotel 1: The example from the assignment -->
 	<Hotel id="hotel1">
